@@ -99,9 +99,6 @@ function App() {
         {expenseData && expenseData.map((item: Expense) => {
         return (
           <tr className="row"  key="item.id">
-            <td className="cell">
-            {item.id}
-          </td>
           <td className="cell">
             {formatDate(item.date)}
           </td>
